@@ -1,0 +1,49 @@
+:root {
+    --mainko-font: "Black Han Sans";
+    --maineng-font: "Aldrich";
+    --mainnum-font: "Gowun Batang";
+
+    --mainBg-color: #fdd;
+    --maincolor100-color: #fdd;
+    --maincolor200-color: #ffd;
+    --maincolor300-color: rgb(218, 122, 122);
+    --maincolor400-color: rgb(14, 241, 83);
+    --maincolor500-color: rgb(31, 7, 245);
+
+    --subcolor100-color: rgb(31, 7, 245);
+    --subcolor200-color: rgb(31, 7, 245);
+    --subcolor300-color: rgb(31, 7, 245);
+    --subcolor400-color: rgb(31, 7, 245);
+    --subcolor500-color: rgb(31, 7, 245);
+    --subcolor600-color: rgb(31, 7, 245);
+
+    --white: #fff;
+    --black: #000;
+    --black100: #d1d1d1;
+    --black200: #ccc;
+    --black300: #313131;
+
+
+    font-family: var(--mainko-font), var(--maineng-font), var(--mainnum-font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+
+
+}
+
+body {
+    color: var(#313131);
+    background-color: var(--maincolor100-color);
+}
+
+
+@media (max-width:800px) {
+    :root {
+        font-size: 14px;
+    }
+}
